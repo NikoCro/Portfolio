@@ -1,0 +1,102 @@
+* {
+
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    background-color: lightyellow;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    text-decoration-color: black;
+    font-size: large;
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    display: inline-block;
+   
+    align-items: top right;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: underline;
+    /* position: absolute;
+    top: right */
+    margin-right: 10px;
+ 
+  }
+
+  .page-section {
+    display: flex;
+  }
+    
+ .page-section img {
+    float: left;
+    background: url("selfie.png");
+    width: 100px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 0px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
