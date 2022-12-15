@@ -5,8 +5,7 @@
   }
   
   body {
-    background-color: lightyellow;
-    margin: 0;
+    background-color: lightpink;
     padding: 0;
     font-family: sans-serif;
   }
@@ -22,9 +21,12 @@
     align-items: center;
   }
 
+  h1{
+  font-weight: bold;
+}
+
   nav {
     display: inline-block;
-   
     align-items: top right;
      display: flex;
     flex-direction: row;
@@ -41,62 +43,48 @@
     text-decoration: underline;
     /* position: absolute;
     top: right */
-    margin-right: 10px;
+    margin-right: 65px;
  
   }
-
-  .page-section {
-    display: flex;
-  }
+    .table{
+    width: 100%;
     
- .page-section img {
-    float: left;
-    background: url("selfie.png");
-    width: 100px;
-    height: 200px;
-    margin-left: 80px;
-    margin-top: 0px;
-  
   }
-  
-  
-  
-  
-  
-  
-  
-  /* Float four columns side by side */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
+.image{
+ 
+  float: left;
+  align-items:stretch;
+  justify-content: left;
+  flex-direction: column;
+  width: 40%;
+
+}
+
+img{
+  max-width: 400px;
+}
+
+
+  .text {
+    float: right;
+    width: 60%;
+    height: 90%;
+    background-color:none;
+    padding: 20px;
+    flex-wrap: wrap;
+   
   }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {
-    margin: 0 -5px;
-  }
-  
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+
+  .logo{
+    position: relative;
+    top: 120px;
+    left: 360px;
+
+
   }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-  }
+
