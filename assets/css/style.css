@@ -1,90 +1,106 @@
 * {
 
-    box-sizing: border-box;
-  
-  }
-  
-  body {
-    background-color: lightpink;
-    padding: 0;
-    font-family: sans-serif;
-  }
-  
-  header {
-    text-decoration-color: black;
-    font-size: large;
-    font-style: italic;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
+  box-sizing: border-box;
 
-  h1{
+}
+
+body {
+  background-color: lightpink;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-decoration-color: black;
+  font-size: large;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
   font-weight: bold;
 }
 
-  nav {
-    display: inline-block;
-    align-items: top right;
-     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+nav {
+  display: inline-block;
+  align-items: top right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  
-  nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: medium;
-    text-decoration: underline;
-    /* position: absolute;
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: underline;
+  /* position: absolute;
     top: right */
-    margin-right: 65px;
- 
-  }
-    .table{
-    width: 100%;
-    
-  }
-.image{
- 
+  margin-right: 65px;
+
+}
+
+.table {
+  width: 100%;
+
+}
+
+.image {
+
   float: left;
-  align-items:stretch;
+  align-items: stretch;
   justify-content: left;
   flex-direction: column;
   width: 40%;
 
 }
 
-img{
+img {
   max-width: 400px;
 }
 
 
-  .text {
-    float: right;
-    width: 60%;
-    height: 90%;
-    background-color:none;
-    padding: 20px;
-    flex-wrap: wrap;
-   
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.text {
+  float: right;
+  width: 60%;
+  height: 90%;
+  background-color: none;
+  padding: 20px;
+  flex-wrap: wrap;
 
-  .logo{
-    position: relative;
-    top: 120px;
-    left: 360px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  /* position: relative; */
+  /* top: 120px;
+  left: 360px; */
+  /* border: 5px green solid; */
 
 
-  }
+}
 
+/* .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+} */
